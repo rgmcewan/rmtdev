@@ -26,7 +26,7 @@ const renderPaginationButtons = () => {
 
     // update page numbers
     paginationNumberNextEl.textContent = state.currentPage++;
-    paginationNumberNextEl.textContent = state.currentPage--;
+    paginationNumberBackEl.textContent = state.currentPage--; // still big here somewhere showing wrong back number on previous page button
 
     // unfocus ('blur") buttons
     paginationBtnNextEl.blur();

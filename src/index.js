@@ -8,3 +8,5 @@ import './components/Search.js';
 import './components/Sorting.js';
 import './components/Spinner.js';
 import './components/Storage.js';
+
+import './index.css';
